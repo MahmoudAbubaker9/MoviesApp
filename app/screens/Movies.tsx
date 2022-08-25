@@ -19,8 +19,6 @@ function Movies() {
         MoviesData: {movies: []}
 
     })
-    // const [error, setError] = useState({})
-  
 
     useEffect(() => {
         fetch('https://reactnative.dev/movies.json')
@@ -29,11 +27,7 @@ function Movies() {
             MoviesData: res})})
         .catch(res => console.error(Error))
       }, [])
-
-    //   console.log('====================================');
-    //   console.log(movies.MoviesData);
-    //   console.log('====================================');
-  
+ 
 
 return (
     <View style={styles.container}>

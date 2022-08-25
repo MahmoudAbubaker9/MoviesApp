@@ -13,7 +13,6 @@ export default function App() {
       <StatusBar style="auto" />
       <Movies/>
     </SafeAreaView>
-    {/* <Movies /> */}
     </>
   );
 }
